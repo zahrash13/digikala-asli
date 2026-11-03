@@ -1,0 +1,210 @@
+
+
+.submenu {
+  width: 70vw;
+  height: 65vh;
+  position: absolute;
+  top: 100%;
+   right: 0;
+  z-index: 9999;
+  display: none;
+   direction: rtl;     
+  overflow: hidden; 
+  .submenu a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: normal;
+    color: #000;
+    display: block;
+    padding: 5px;
+  }
+  .submenu-right {
+    width: 15%;
+    height: 100%;
+    background-color: #f0f0f1;
+    overflow: auto;
+    direction: ltr;
+    border-left: 1px solid rgb(241, 241, 241);
+    .submenu-right-item {
+      width: 100%;
+      height: 40px;
+      .submenu-right-link {
+        display: block;
+        width: 100%;
+        height: 100%;
+        color: #0c0c0c;
+        text-align: right;
+        font-family: iranyekan;
+        text-decoration: none;
+        padding-right: 5px;
+        line-height: 32px;
+        font-weight: normal;
+        font-size: 13px;
+        box-sizing: border-box;
+      }
+      &:hover {
+        background-color: #ffffff;
+         .submenu-right-link  a{
+  color: #ef4056;
+         }
+       
+      }
+      .submenu-submenu {
+        width: 85%;
+        height: 100%;
+        background-color: #ffffff;
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: none;
+        overflow: auto;
+        direction: ltr;
+        
+        padding: 20px 20px 0 20px;
+        .submenu-submenu a {
+          text-decoration: none;
+          font-size: 14px;
+          font-weight: normal;
+          color: #000;
+          display: block;
+        }
+      }
+      &:hover .submenu-submenu {
+        display: block;
+      }
+    }
+  }
+}
+.menu-nav-item:hover > .submenu {
+  display: block;
+}
+.active {
+  display: block !important;
+}.submenu-right-item-title{
+   height: 26px;
+  width: 880px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  position: relative;
+
+ a{
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}}
+.submenu-right-item-title a h4{
+ 
+      font-weight: 400;
+    
+    color: #0d4485;
+   
+   
+
+}
+.absolute-title{
+ position: absolute;
+ right: 123px;
+ top: 5px;
+}
+
+.submenu-submenu .submenu-right-item-title {
+  width: 100%;
+        height: 26px;
+        margin-bottom: 20px;
+
+
+}
+.submenu-right-item-more{
+  width: 100%;
+  height: auto;
+margin-top: 10px;
+  display: flex;
+  justify-content: right;
+  align-items: flex-start;
+
+  
+
+}
+
+.submenu-right-item-more-data{
+  width: 25%;
+  display: flex;
+ justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.submenu-right-item-more-data span{
+  
+  display: block;
+ width: 2px;
+    height: 14px;
+    background-color: #ef4056;
+    margin-left: 5px;
+}
+
+.submenu-right-item-more-data a{
+  
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 16px;
+ padding: 4px 0;
+ margin-bottom: 8px;
+  transition: color 0.2s ease;
+
+ 
+}
+.submenu-right-item-more-data .submenu-a{
+color: #2b2b2b;
+}
+
+
+
+.submenu-right-item-more-data a:hover {
+  color: #ef4056;
+}
+
+.submenu-right-item-more-data a:hover h5 {
+  color: #ef4056;
+}
+
+.submenu-right-item:hover .submenu-right-link {
+  color: #ef4056;
+}
+
+.submenu-right-item:hover .submenu-right-link, 
+.submenu-right-item:hover .submenu-right-link a,
+.submenu-right-item:hover svg {              
+  color: #ef394e !important;
+}
+
+.submenu-right-item-more-data a {
+    color: #000 !important; 
+
+}
+.submenu-right-item-more-data a,
+.submenu-right-item-more-data a h5 {
+    color: #81858b;
+     font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

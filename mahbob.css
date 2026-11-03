@@ -1,0 +1,204 @@
+
+.mahbob{
+    width: 100%;
+    height: 463px;
+    margin: 20px 0;
+}
+.mahbob .mahbob-center{
+     max-width: 1330px;
+    height:100% ;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+margin: 0 auto;
+padding-top: 8px;
+}
+.mahbob-center .mahbob-center-top{
+    padding: 12px 20px;
+  
+
+}
+.mahbob-center .mahbob-center-top .mahbob-center-top-text{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mahbob-center .mahbob-center-top .mahbob-center-top-text h3{
+    font-family: iranyekan;
+    font-size: 16px;
+    font-weight: 700;
+  line-height: 2.1;
+  position: relative;
+  
+}.mahbob-center .mahbob-center-top .mahbob-center-top-text h5{
+      font-family: iranyekan;
+    font-size: 13px;
+    font-weight: 500;
+  line-height: 2.1;
+  color: #19bfd3;
+}
+.mahbob-center .mahbob-center-top .line{
+   width: 70px;
+  height: 3px;
+  margin-top: 8px;
+  background-color:#029a49 ;
+}
+.mahbob-center .mahbob-center-bottom{
+    width: 100%;
+    height: 385px;
+}
+ .mahbob-center .mahbob-center-bottom .swiper {
+      width: 100%;
+      height: 100%;
+    }
+.mahbob-center .mahbob-center-bottom .swiper-slide{
+    
+      text-align: center;
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 192px !important;
+  height: 100%;
+    margin-left: 24px;
+      border-left: 0.5px solid rgb(230, 228, 228);
+
+}
+.swiper-slide-item{
+  width: 192px;
+  height: 100%;
+  
+}
+
+.swiper-slide-item-data{
+  padding: 12px 8px;
+  position: relative;
+  
+}
+.swiper-slide-item-data .swiper-slide-item-data-picture{
+   width: 174px;
+  height: 154px;
+margin-bottom: 4px;
+}
+
+.swiper-slide-item-data .swiper-slide-item-data-picture .swiper-slide-item-data-picture-c{
+ 
+}
+.swiper-slide-item-data-picture .swiper-slide-item-data-picture-c div{
+  width: 150px;
+  height: 150px;
+ margin: 0 15px;
+}
+.swiper-slide-item-data-picture .swiper-slide-item-data-picture-c div img{
+  width: 150px;
+  height: 150px;
+  
+}
+.swiper-slide-item-data .swiper-slide-item-data-caption{
+  width: 174px;
+  height: 177px;
+direction: rtl !important;}
+
+
+.swiper-slide-item-data .swiper-slide-item-data-caption .caption{
+width: 174px;
+ height: 52px;
+
+}
+.swiper-slide-item-data .swiper-slide-item-data-caption h6{
+  font-size: 12px;
+  font-family: iranyekan;
+  font-weight: 300;
+  line-height: 2.17;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.product-title{
+  text-align: right;
+  direction: rtl;
+}
+.swiper-slide-item-data .swiper-slide-item-data-caption .caption-fasele{
+  margin-bottom: 4px;
+}
+
+ .swiper-slide-item-data-caption .caption-price{
+  padding-top: 4px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.swiper-slide-item-data-caption .caption-price h3{
+   font-size: 16px;
+  font-family: iranyekan;
+  font-weight: 500;
+  line-height: 2.1;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.swiper-slide-item-data-caption .caption-price-tooman{
+  padding: 5px 0 0 0;
+}
+  .mahbob-center .mahbob-center-bottom  .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+ .mahbob .swiper,
+.mahbob .swiper-slide,
+.mahbob .swiper-slide-mahbob {
+  background: transparent !important;
+ 
+}
+.swiper-slide-item-data-picture-c .psitive{
+  width: 28px;
+  height: 28px;
+  position: absolute;
+ right: -59px;
+  bottom: 107px;
+
+}
+
+
+
+
+
+
+
+.swiper-slide-item-data .swiper-slide-item-card-end{
+  width: 192px;
+  height: 267px;
+  background-color: aliceblue;
+   background-color: #fff;
+  border-radius: 12px;
+  position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+
+.swiper-slide-item-data .swiper-slide-item-card-end .swiper-slide-item-card-end-1{
+   width: 68px;
+    height: 86px;
+ 
+  
+  h6{
+    font-size: 12px;
+    color:#3f4064;
+    font-weight: 300;
+    line-height: 2.17;
+    margin-top: 12px;
+
+  }
+}
+
+
+/*
+fdnflsnl

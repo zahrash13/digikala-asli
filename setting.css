@@ -1,0 +1,24 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+}
+@font-face {
+  font-family: iranyekan;
+  src: url(../font/iranyekan2.woff2);
+}
+
+.swiper-pagination-bullet {
+  width: 5px;
+  height: 5px;
+}
+.swiper-pagination-bullet-active {
+  width: 25px;
+  height: 5px;
+  background-color: white;
+  border-radius: none;
+  border-radius: 3px;
+  transition: 300ms;
+}
